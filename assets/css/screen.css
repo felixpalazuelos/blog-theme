@@ -550,16 +550,16 @@ p,
 li,
 dt,
 dd {
-  font-size: 12px;
-  font-weight: 80;
-  line-height: 20px;
+  font-size: 13px;
+  font-weight: 100;
+  line-height: 1.6em;
 }
 
 body {
   background-color: #ffffff;
   color: #596364; /* darker color */
-  font-size: 12px;
-  font-weight: 100;
+  font-size: 13px;
+  font-weight: 90;
   line-height: 1.6em;
   margin: 0;
   padding: 0;
