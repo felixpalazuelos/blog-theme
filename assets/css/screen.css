@@ -540,7 +540,7 @@ table tfoot {
 /* === Media Queries === */
 @media only screen and (min-width: 320px) and (max-width: 500px) {
   footer section span.copyright {
-    display: block;
+    display: inline-block;
   }
   nav li {
     width: auto;
