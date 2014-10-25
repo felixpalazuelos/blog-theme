@@ -313,8 +313,8 @@ img.userimage {
 }
 /* === Footer === */
 footer {
-  background: rgba(0, 0, 0, 0.05);
-  margin: 4em 0 0;
+  /*background: rgba(0, 0, 0, 0.05);*/
+  margin: 10em 0 0;
   padding: 2em 0;
   text-align: center;
 }
@@ -645,7 +645,7 @@ hr {
 }
 
 .site-footer {
-  color: #FFFFFF;
+  color: #899596;
 }
 
 section.footer-social {
