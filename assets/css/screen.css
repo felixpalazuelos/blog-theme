@@ -635,6 +635,7 @@ blockquote p {
   font-style: normal;
   text-transform: none;
   margin-bottom: 30px;
+  color: rgb(149, 165, 166);
 }
 
 section.post-content ul {
