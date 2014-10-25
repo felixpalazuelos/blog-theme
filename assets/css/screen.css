@@ -534,7 +534,58 @@ table tfoot {
   border-top: 1px solid #ecf0f1;
 }
 /* === Media Queries === */
-@media only screen and (min-width: 320px) and (max-width: 500px) {
+@media only screen and (min-width: 320px) and (max-width: 719px) {
+
+h1 {
+  color: #151515;
+  font-family: "Roboto Slab", "Merriweather", "Open Sans", "Helvetica Neue", Helvetica, Arial, "Nimbus L", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 42px;
+  margin: 0;
+  padding: 0;
+}
+
+p,
+li,
+dt,
+dd {
+  font-size: 12px;
+  font-weight: 100;
+  line-height: 30px;
+}
+
+body {
+  background-color: #ffffff;
+  color: #596364; /* darker color */
+  font-size: 12px;
+  font-weight: 100;
+  line-height: 1.6em;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: subpixel-antialiased;
+  -webkit-tap-highlight-color: rgba(0,0,0,0); /* prevent grey link highlight in iOS */
+}
+
+h1.blog-title {
+  font-size: 32px;
+  line-height: 48px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  font-family: "Open Sans Condensed", "Open Sans", "Helvetica Neue", Helvetica, Arial, "Nimbus L", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  margin: 0;
+  padding: 0 .5em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
 
   nav li {
     width: auto;
