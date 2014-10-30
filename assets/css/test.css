@@ -3,10 +3,7 @@
 /* === Core Styles === */
 body {
   background-color: #ffffff;
-  color: #202020; /* darker color */
-  font-size: 14px;
-  font-weight: 100;
-  line-height: 1.6em;
+  font-size: 16px;
   margin: 0;
   padding: 0;
   -webkit-font-smoothing: subpixel-antialiased;
@@ -23,8 +20,14 @@ p,
 li,
 dt,
 dd {
-  font-family: "Merriweather", "Open Sans", "Helvetica Neue", Helvetica, Arial, "Nimbus L", sans-serif;
+  font-family: "proxima-nova";
+  line-height: 1.7em;
+  letter-spacing: 0px;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
 }
+
 h1,
 .post-meta {
   text-align: left;
@@ -45,9 +48,12 @@ p,
 li,
 dt,
 dd {
-  font-size: 14px;
-  font-weight: 100;
-  line-height: 20px;
+  font-family: "proxima-nova";
+  line-height: 1.7em;
+  letter-spacing: 0px;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
 }
 dt {
   font-weight: 400;
@@ -93,11 +99,13 @@ kbd {
       0 1px 0 0 #fff inset;
 }
 h1 {
-  color: #151515;
-  font-family: "Roboto Slab", "Merriweather", "Open Sans", "Helvetica Neue", Helvetica, Arial, "Nimbus L", sans-serif;
-  font-size: 30px;
-  font-weight: 400;
-  line-height: 42px;
+  font-size: 24px;
+  font-family: "proxima-nova";
+  line-height: 1.3em;
+  text-transform: none;
+  letter-spacing: 0px;
+  font-weight: 700;
+  font-style: normal;
   margin: 0;
   padding: 0;
 }
@@ -222,26 +230,13 @@ section.author p.bio {
   line-height: 1.2em;
 }
 blockquote {
-  font-family: "Open Sans Condensed", "Open Sans", "Helvetica Neue", Helvetica, Arial, "Nimbus L", sans-serif;
-  font-size: 1.4em;
-  font-weight: 300;
-  line-height: 1.2em;
-  font-style: italic;
-  text-transform: uppercase;
   border-left: 0.5em solid rgba(0, 0, 0, 0.05);
   margin-left: 1em;
   padding-left: 1em;
 }
-blockquote p {
-  font-family: "Open Sans Condensed", "Open Sans", "Helvetica Neue", Helvetica, Arial, "Nimbus L", sans-serif;
-  font-size: 1.4em;
-  font-weight: 300;
-  line-height: 1.2em;
-  font-style: italic;
-  text-transform: uppercase;
-}
+
 .post-meta {
-  color: #95a5a6;
+  color: rgba(66, 66, 66, 0.701961);
   font-family: "Open Sans Condensed", "Open Sans", "Helvetica Neue", Helvetica, Arial, "Nimbus L", sans-serif;
   font-size: 14px;
   font-weight: 300;
@@ -631,14 +626,14 @@ pre {
 }
 
 blockquote p {
-  font-family: "Merriweather", "Open Sans", "Helvetica Neue", Helvetica, Arial, "Nimbus L", sans-serif;
-  font-size: 0.7em;
-  font-weight: 300;
-  line-height: 1.5em;
+font-family: "proxima-nova";
+  line-height: 1.7em;
+  letter-spacing: 0px;
+  font-weight: 400;
   font-style: normal;
-  text-transform: none;
+  font-size: 16px;
   margin-bottom: 30px;
-  color: #707070;
+  color: #808080;
 }
 
 section.post-content ul {
