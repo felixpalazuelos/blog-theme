@@ -1,17 +1,25 @@
 @import url('//fonts.googleapis.com/css?subset=latin,cyrillic-ext,latin-ext,cyrillic&family=Open+Sans+Condensed:300|Open+Sans:400,600,400italic,600italic|Merriweather:400,300,300italic,400italic,700,700italic|Roboto+Slab:400,300');
 @import url('//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css');
+
+@font-face {
+  font-family: 'proxima-nova';
+  src: url('../fonts/ProximaNova-Regular.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
 /* === Core Styles === */
 body {
   background-color: #ffffff;
   color: #202020; /* darker color */
   font-size: 16px;
   font-weight: 400;
-  line-height: 1.6em;
+  line-height: 20px;
   margin: 0;
   padding: 0;
-  -webkit-font-smoothing: subpixel-antialiased;
-  -webkit-tap-highlight-color: rgba(0,0,0,0); /* prevent grey link highlight in iOS */
 }
+
 body * {
   max-height: 1000000em;
 }
@@ -61,7 +69,7 @@ blockquote {
   font-family: "proxima-nova";
   font-size: 16px;
   font-weight: 400;
-  line-height: 20px;
+  line-height: ;
   font-style: normal;
   text-transform: none;
   margin-bottom: 30px;
